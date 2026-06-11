@@ -1,34 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css" >
-    <link rel="icon" href="./nym.png">
-    <title>Jay Studios Inc</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./nym.png">
+  <title>Jay Studios Inc. </title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <img src="./nym.png" class="logo" height="100">
-        <hr>
-    </header>
 
-    <main>
-        <div class = 'col-1'>
-            <p>Welcome to my page! I will be updating this page soon. Enjoy the pictures of stadiums throughout NYC! Let's go Mets!</p>
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-bar"></div>
+    <button id="dark-mode-btn" class="dark-mode-btn" aria-label="Toggle dark mode">&#9790; Dark Mode</button>
+    <h1 class="site-title">Jay <span class="accent">Studios</span></h1>
+    <p class="site-subtitle">New York Mets! </p>
+  </header>
+
+  <main>
+
+    <!-- Carousel -->
+    <section class="carousel-section">
+      <h2 class="section-heading"><img src="./nym2.png" alt="Mets logo" class="heading-logo"> Citi Field Gallery <img src="./nym2.png" alt="Mets logo" class="heading-logo"></h2>
+      <h3 class="section-subheading">Taken on iPhone 15 Pro Max by me. <br>Enjoy!  </h3>
+      <div class="carousel">
+        <button class="carousel-arrow prev" id="prev-btn" aria-label="Previous photo">&#10094;</button>
+
+        <div class="carousel-window">
+          <div class="carousel-track" id="carousel-track">
+            <div class="slide" data-caption="The view from center field entrance, with the iconic Citi branding and the lines of people of all ages excited to enter.">
+              <img src="./mets1.JPG" alt="Mets stadium photo 1" class="slide-img">
+              <div class="slide-placeholder"></div>
+            </div>
+            <div class="slide" data-caption="Awesome view of floor-level seats at night! The lights, atmosphrere and energy is much higher down here.">
+              <img src="./mets2.JPG" alt="Mets stadium photo 2" class="slide-img">
+              <div class="slide-placeholder"></div>
+            </div>
+            <div class="slide" data-caption="One time in 2025 I caught a ball from an Atlanta Braves pitcher and captured this iconic moment! I hope to catch a Mets one next!">
+              <img src="./mets3.JPG" alt="Mets stadium photo 3" class="slide-img">
+              <div class="slide-placeholder"></div>
+            </div>
+            <div class="slide" data-caption="The Mets once scored 19 home runs in a single night, usually they have fireworks for each one but that night they ran out.">
+              <img src="./mets4.jpg" alt="Mets stadium photo 4" class="slide-img">
+              <div class="slide-placeholder"></div>
+            </div>
+            <div class="slide" data-caption="Always a great day at the ballpark. I usually go with my friends and family and we have the greatest time while there when they win!">
+              <img src="./mets5.JPG" alt="Mets stadium photo 5" class="slide-img">
+              <div class="slide-placeholder"></div>
+            </div>
+          </div>
         </div>
 
-        <div class='carousel'>
-            <button id="leftButton">&lt;</button>
-            <img id="stadiumPhoto" src="./nym.png" alt="Citi Field, home of the New York Mets" height="400">
-            <button id="rightButton">&gt;</button>
+        <button class="carousel-arrow next" id="next-btn" aria-label="Next photo">&#10095;</button>
+      </div>
+
+      <p class="slide-caption" id="slide-caption"></p>
+      <div class="carousel-dots" id="carousel-dots"></div>
+    </section>
+
+    <!-- Facts dropdown menu  -->
+    <section class="facts-section">
+      <div class="dropdown">
+        <button id="facts-toggle" class="dropdown-btn" aria-expanded="false">
+          Mets Facts <span class="chevron">&#9662;</span>
+        </button>
+        <div id="facts-panel" class="dropdown-panel" hidden>
+          <div class="fact-row" id="fact-row">
+            <p id="fact-text" class="fact-text"></p>
+            <img id="fact-img" class="fact-img" src="" alt="" hidden>
+          </div>
+          <button id="next-fact" class="next-fact-btn">Next fact &rarr;</button>
         </div>
-    </main>
-    <footer>
-        <p>Jay Studios Inc.</p>
-    </footer>
+      </div>
+    </section>
+
+    <!-- ===== About Me ===== -->
+    <section class="facts-section">
+      <div class="dropdown">
+        <button id="about-toggle" class="dropdown-btn" aria-expanded="false">
+          About Me <span class="chevron">&#9662;</span>
+        </button>
+        <div id="about-panel" class="dropdown-panel" hidden>
+          <div class="about-header">
+            <img src="./nym.png" alt="New York Mets logo" class="about-logo">
+            <p class="fact-text">Hey, I'm Jason! I'm a Computer Science major student here at QC and an avid New York Mets fan. I built this page to share my love for the team, show off some of my photos from Citi Field, and practice my web development skills. Let's Go Mets!</p>
+          </div>
+          <div class="stack-list">
+            <div class="stack-item">
+              <span class="stack-number">1</span>
+              <div class="stack-body">
+                <strong>Computer Science B.S. Student</strong>
+                <p>Just walked at graduation at Queens College, excited to get into the industry with everything I've learned here. 355 is the final course I will take as an undergrad and I'm enjoying the course.</p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <span class="stack-number">2</span>
+              <div class="stack-body">
+                <strong>Lifelong Mets Fan</strong>
+                <p>Been rooting for the Mets for a couple of years. I went to my first couple of games in 2024 and have enjoyed watching them since.</p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <span class="stack-number">3</span>
+              <div class="stack-body">
+                <strong>iPhone Photographer</strong>
+                <p>All gallery photos shot on my iPhone 15 Pro Max at Citi Field to capture the moments lived. </p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <span class="stack-number">4</span>
+              <div class="stack-body">
+                <strong>Web Developer</strong>
+                <p>Built this site from scratch and practicing for the first time as I take this course.</p>
+              </div>
+            </div>
+            <div class="stack-item">
+              <span class="stack-number">5</span>
+              <div class="stack-body">
+                <strong>Experienced</strong>
+                <p>As much as these images show off, I do love the experience of displaying them on a webpage as this is more creative than any of my theory and algorithms courses.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download button -->
+    <section class="download-wrap">
+      <a href="./JtResume.docx" download="JtResume.docx" class="download-link">&#8681; Download my resume HERE!</a>
+    </section>
+
+  </main>
+
+  <!--  Footer -->
+  <footer class="site-footer">
+    <p class="footer-copy">Let's Go Mets! &bull; Jay Studios inc. All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
