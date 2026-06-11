@@ -23,11 +23,11 @@ PART 1: CONTENT (Answer ALL questions)
   I have worked with Python, Java, C++, mySQL, and now javascript, Git/Github.
 10. What achievements or experiences are worth highlighting?
 11. What call-to-action should visitors take (contact you, view projects, download resume)?
-  View projects.
+  View my work first and improve upon it. I start with 0 knowldege but its cool to me,
 12. Will you include a resume? In what format?
-  I will include it in a display format if possible.
+  I will include it in .docx
 13. What social or professional links will you include (GitHub, LinkedIn, etc.)?PART 1: CONTENT (Answer ALL questions)
-I will include Github, and linkedIn.
+I will include my resume for nwo.
 
 --------------------------------------------------
 PART 2: DESIGN (Answer ALL questions)
@@ -60,9 +60,68 @@ PART 2: DESIGN (Answer ALL questions)
 PART 3: INTERACTIVITY (Answer ALL questions)
 
 1. What interactive elements will your site include (navigation menus, buttons, forms)?
+used a dropdown menu to display facts and a carousel as well.
 2. Will your site include a contact form? How will it work?
+so far i include a download to resume. will implement social media soon.
 3. What JavaScript features will you implement?
+foreach to use on the carousel and navigating through the facts.
 4. How will users receive feedback from interactions?
+
 5. How does interactivity improve the user experience?
+makes it easier to manuever and appealing to the eyes. 
 
 --------------------------------------------------
+┌─────────────────────────────────────────────────────────────┐
+│ ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ │  ← blue/orange header bar
+│                                          [ ☾ Dark Mode ]    │  ← top-right button
+│                                                             │
+│                   Jay Studios                               │
+│                  New York Mets!                             │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐  MAIN (max 900px)
+│                                                             │
+│           [logo]  Citi Field Gallery  [logo]                │  ← section-heading
+│         Taken on iPhone 15 Pro Max by me. Enjoy!            │  ← section-subheading
+│                                                             │
+│   [◀]  ┌───────────────────────────────────────┐  [▶]      │  ← carousel
+│        │                                       │           │
+│        │           slide image                 │           │
+│        │                                       │           │
+│        └───────────────────────────────────────┘           │
+│              italic caption text here...                    │  ← slide-caption
+│                    • • ● • •                                │  ← dots
+│                                                             │
+│         ┌─────────────────────────────────────┐            │
+│         │  Mets Facts                     ▼   │            │  ← dropdown btn
+│         └─────────────────────────────────────┘            │
+│         ┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐            │
+│         │  [img]  Fact text goes here...       │            │  ← panel (hidden/shown)
+│         │         [ Next fact → ]              │            │
+│         └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┘            │
+│                                                             │
+│         ┌─────────────────────────────────────┐            │
+│         │  About Me                       ▼   │            │  ← dropdown btn
+│         └─────────────────────────────────────┘            │
+│         ┌ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┐            │
+│         │  [logo] │ About me paragraph text    │            │
+│         │ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─  │            │
+│         │  ① ─────────────────────────────    │            │
+│         │     Title / description             │            │  ← stack cards
+│         │  ② ─────────────────────────────    │            │
+│         │  ③ ─────────────────────────────    │            │
+│         │  ④ ─────────────────────────────    │            │
+│         │  ⑤ ─────────────────────────────    │            │
+│         └ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ┘            │
+│                                                             │
+│              [ ⬇ Download my resume HERE! ]                 │  ← download btn
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────┐
+│          Let's Go Mets! • Jay Studios inc. All Rights Reserved│  ← footer (blue bg)
+└─────────────────────────────────────────────────────────────┘
+
+_________________________________________________________________
+this project is really cool to me. I love the personalization that anyone can do and not worry too much about the software imaplications such as in an algorithms course. My goal is to create an enjoyable fan page i suppose. This reminds me of MySpace when i was a kid having to type out HTML to get music players to work.
+I would want to improve the style i build sites in. I am not artistic but this way is much more customizeable and i would add more links to to mycontact soon after.
